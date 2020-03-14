@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-lander",
-  "author": "Hunter Chang",
-  "repository": "https://github.com/codebushi/gatsby-starter-lander",
-  "version": "1.0.0",
-  "license": "MIT",
+  "name": "fyli-landing-page",
+  "author": "Abhishek Bisht",
+  "repository": "https://github.com/awesomeAB/fyli-landing-page",
+  "version": "0.1.0",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build"
