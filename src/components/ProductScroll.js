@@ -3,7 +3,7 @@ import LabelText from './LabelText';
 
 const Stats = () => (
   <div className="container mx-auto text-center">
-    <LabelText className="text-gray-600">TODO: Build products scroll</LabelText>
+    <LabelText className="text-gray-600">TODO: Build products showcase</LabelText>
   </div>
 );
 

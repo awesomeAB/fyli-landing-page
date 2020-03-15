@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Onboarding = () => (
-  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200">
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1200">
     <defs>
       <linearGradient x1="0" y1=".5" x2="1" y2=".5" spreadMethod="pad" id="d">
         <stop stopColor="#58595b" offset="0" />

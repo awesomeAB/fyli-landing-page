@@ -12,7 +12,6 @@ import StoreIcon from '../svg/StoreIcon';
 import DesignIcon from '../svg/DesignIcon';
 import OrderIcon from '../svg/OrderIcon';
 import PayIcon from '../svg/PayIcon';
-import Testimonial from '../components/Testimonal';
 
 export default () => (
   <Layout>
@@ -126,10 +125,10 @@ export default () => (
     <section id="products" className="py-20 lg:pt-32">
       <ProductScroll />
     </section>
-    <section id="testimonials" className="py-20 lg:py-40">
-      <Testimonial />
-    </section>
-    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+    <section
+      id="contact"
+      className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center"
+    >
       <h3 className="text-5xl font-semibold">Ready to grow your brand?</h3>
       <p className="mt-8 text-xl font-light">
         We are currently looking for super awesome influencers to kickstart Fyli in India.

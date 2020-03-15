@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LogoIcon = () => (
+const DesignIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     className="inline-block h-16 w-16"
@@ -29,4 +29,4 @@ const LogoIcon = () => (
   </svg>
 );
 
-export default LogoIcon;
+export default DesignIcon;

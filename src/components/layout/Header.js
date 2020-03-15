@@ -6,6 +6,9 @@ import Button from '../Button';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const url = typeof window !== 'undefined' ? window.location.href : '';
+  const count = (url.match(/\//g) || []).length;
+  const showAnchors = !(count > 3);
   return (
     <header className="sticky top-0 bg-gray-100 px-6 shadow items-center sm:flex sm:justify-between md:px-12 xl:px-64">
       <div className="flex sm:flex-row justify-between items-center py-4 sm:px-2">
@@ -17,7 +20,7 @@ const Header = () => {
             Fyli
           </div>
         </Link>
-        <div className="sm:hidden">
+        <div className={`${showAnchors ? '' : 'hidden'} sm:hidden`}>
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
@@ -42,7 +45,8 @@ const Header = () => {
         </div>
       </div>
       <div
-        className={`${isOpen ? 'block' : 'hidden'} px-4 pb-4 text-lg font-semibold sm:flex sm:p-0`}
+        className={`${isOpen && showAnchors ? 'block' : 'hidden'} 
+        px-4 pb-4 text-lg font-semibold sm:${showAnchors ? 'flex' : 'hidden'} sm:p-0`}
       >
         <AnchorLink className="py-1 block sm:px-4" href="#features">
           Features
@@ -53,7 +57,7 @@ const Header = () => {
         <AnchorLink className="py-1 block sm:px-4" href="#products">
           Products
         </AnchorLink>
-        <AnchorLink className="py-1 block sm:px-4" href="#testimonials">
+        <AnchorLink className="py-1 block sm:px-4" href="#contact">
           Contact
         </AnchorLink>
       </div>
