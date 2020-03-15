@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const Footer = () => (
-  <footer className="container mx-auto pt-16 px-3 mt-48 mb-4 pb-4 text-gray-800">
+  <footer className="bg-gray-100 pt-16 px-3 mt-48 pb-8 shadow-xs text-gray-600">
     <div className="flex -mx-3">
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">About Us</h2>
@@ -12,7 +12,6 @@ const Footer = () => (
         <h2 className="text-lg font-semibold">Important Links</h2>
         <ul className="mt-4 leading-loose">
           <li>
-            {/* <a href="#home">Terms &amp; Conditions</a> */}
             <Link to="/terms/">Terms &amp; Conditions</Link>
           </li>
           <li>

@@ -6,6 +6,8 @@ import SplitSection from '../components/SplitSection';
 import ProductScroll from '../components/ProductScroll';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import Money from '../svg/Money';
+import Onboarding from '../svg/Onboarding';
 import StoreIcon from '../svg/StoreIcon';
 import DesignIcon from '../svg/DesignIcon';
 import OrderIcon from '../svg/OrderIcon';
@@ -14,7 +16,7 @@ import Testimonial from '../components/Testimonal';
 
 export default () => (
   <Layout>
-    <section id="home" className="pt-20 md:pt-40 mt-20 mb-20">
+    <section id="home" className="sm:pt-20 md:pt-40 mt-20 mb-20">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
@@ -25,7 +27,7 @@ export default () => (
             have to do is BE AWESOME. Leave the rest to us.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <Button size="lg">I'm Interested</Button>
           </p>
           <p className="mt-4 text-gray-600">Sign up for early access!</p>
         </div>
@@ -34,10 +36,10 @@ export default () => (
         </div>
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+    <section id="features" className="sm:py-20 lg:pb-40 lg:pt-40 xl:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Features</h2>
-        <div className="py-10 flex flex-col mx-3 mt-12 sm:flex-row flex-wrap">
+        <div className="flex flex-col mx-3 sm:flex-row flex-wrap py-10 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
               <StoreIcon className="inline-block" />
@@ -81,25 +83,25 @@ export default () => (
         </div>
       </div>
     </section>
-    <section id="works" className="py-20 lg:py-30">
-      <h2 className="text-3xl lg:text-5xl font-semibold text-center">How it works?</h2>
+    <section id="works" className="sm:py-20 lg:py-30">
+      <h2 className="text-3xl lg:text-5xl font-semibold text-center pt-4 pb-10">How it works?</h2>
       <SplitSection
         primarySlot={
           <div className="lg:pr-32 xl:pr-48">
-            <h3 className="text-3xl font-semibold leading-tight">Onboarding</h3>
+            <h3 className="text-2xl font-semibold leading-tight">Onboarding</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
               Our team of enthusiastic marketers will work with you 1:1 to set up your store. We
               will help you finalize the products, designs, pricing and the look of your store.
             </p>
           </div>
         }
-        secondarySlot={<SvgCharts />}
+        secondarySlot={<Onboarding />}
       />
       <SplitSection
         reverseOrder
         primarySlot={
           <div className="lg:pl-32 xl:pl-48">
-            <h3 className="text-3xl font-semibold leading-tight">Revenue analytics</h3>
+            <h3 className="text-2xl font-semibold leading-tight">Revenue analytics</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
               Upon onboarding you will be given access to the influencer dashboard, which will bring
               all the store data in one place for you to analyze and optimize.
@@ -111,14 +113,14 @@ export default () => (
       <SplitSection
         primarySlot={
           <div className="lg:pr-32 xl:pr-48">
-            <h3 className="text-3xl font-semibold leading-tight">Profit Payout</h3>
+            <h3 className="text-2xl font-semibold leading-tight">Monthly Payouts</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
               The profit generated from the sales of your products will be paid out to you on a
               monthly basis. This is negotiable depending upon your sales volume.*
             </p>
           </div>
         }
-        secondarySlot={<SvgCharts />}
+        secondarySlot={<Money />}
       />
     </section>
     <section id="products" className="py-20 lg:pt-32">

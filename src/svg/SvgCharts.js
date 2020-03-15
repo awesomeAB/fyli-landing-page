@@ -1,6 +1,6 @@
 import React from 'react';
 
-const mainColor = '#4299e1';
+const mainColor = '#B89EFA';
 
 const SvgCharts = () => (
   <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1113.58 784.41">
@@ -179,11 +179,11 @@ const SvgCharts = () => (
       strokeWidth="7"
       d="M318.5 385.41l130-145 130 73 130-224 130 107"
     />
-    <circle cx="318" cy="385.41" r="28" fill={mainColor} />
-    <circle cx="448" cy="240.41" r="28" fill={mainColor} />
-    <circle cx="578" cy="313.41" r="28" fill={mainColor} />
-    <circle cx="708" cy="89.41" r="28" fill={mainColor} />
-    <circle cx="958" cy="327.41" r="28" fill={mainColor} />
+    <circle cx="318" cy="385.41" r="28" fill="#2D9BEE" />
+    <circle cx="448" cy="240.41" r="28" fill="#FFDA1E" />
+    <circle cx="578" cy="313.41" r="28" fill="#58F5D8" />
+    <circle cx="708" cy="89.41" r="28" fill="#FB906F" />
+    <circle cx="958" cy="327.41" r="28" fill="#60F558" />
     <ellipse cx="233.68" cy="722.61" rx="18.68" ry="3.16" fill={mainColor} opacity=".1" />
     <path
       d="M221.14 707.94s10.65-.33 13.86-2.62 16.39-5 17.19-1.35 16 18.24 4 18.34-27.95-1.88-31.15-3.83-3.9-10.54-3.9-10.54z"
