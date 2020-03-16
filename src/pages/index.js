@@ -1,4 +1,5 @@
 import React from 'react';
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import Layout from '../components/layout/Layout';
@@ -12,9 +13,11 @@ import StoreIcon from '../svg/StoreIcon';
 import DesignIcon from '../svg/DesignIcon';
 import OrderIcon from '../svg/OrderIcon';
 import PayIcon from '../svg/PayIcon';
+import SEO from '../components/SEO';
 
 export default () => (
   <Layout>
+    <SEO pathname="" />
     <section id="home" className="sm:pt-20 md:pt-40 mt-20 mb-20">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
@@ -26,7 +29,19 @@ export default () => (
             have to do is BE AWESOME. Leave the rest to us.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">I'm Interested</Button>
+            <Button
+              size="lg"
+              onClick={e => {
+                e.preventDefault();
+                trackCustomEvent({
+                  category: 'Signup initiate',
+                  action: 'Click',
+                  label: 'I am interested button'
+                });
+              }}
+            >
+              I'm Interested
+            </Button>
           </p>
           <p className="mt-4 text-gray-600">Sign up for early access!</p>
         </div>
@@ -134,7 +149,19 @@ export default () => (
         We are currently looking for super awesome influencers to kickstart Fyli in India.
       </p>
       <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
+        <Button
+          size="xl"
+          onClick={e => {
+            e.preventDefault();
+            trackCustomEvent({
+              category: 'Signup initiate',
+              action: 'Click',
+              label: 'Footer - Get started button'
+            });
+          }}
+        >
+          Get Started Now
+        </Button>
       </p>
     </section>
   </Layout>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'gatsby';
+import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
 
@@ -62,7 +63,19 @@ const Header = () => {
         </AnchorLink>
       </div>
       <div className="hidden mr-6 lg:block">
-        <Button className="text-sm">Get Started</Button>
+        <Button
+          className="text-sm"
+          onClick={e => {
+            e.preventDefault();
+            trackCustomEvent({
+              category: 'Signup initiate',
+              action: 'Click',
+              label: 'Header - get started button'
+            });
+          }}
+        >
+          Get Started
+        </Button>
       </div>
     </header>
   );
