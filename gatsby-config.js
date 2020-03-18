@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Fyli - Find your tribe, tell your story.',
-    description: 'Fyli is a free end-to-end platform for selling your products and merch online.',
+    description: `Fyli is a free end-to-end platform for selling your products and merch online. All you
+            have to do is BE AWESOME. Leave the rest to us.`,
     siteUrl: 'https://www.fyli.me',
     twitter: '@abhishekbisht97',
     icon: 'assets/logo/icon.png'
@@ -10,7 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-160780389-1',
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || 'none',
         head: true,
         pageTransitionDelay: 0
       }

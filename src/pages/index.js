@@ -1,5 +1,6 @@
 import React from 'react';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
+import { Link } from 'gatsby';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import Layout from '../components/layout/Layout';
@@ -29,19 +30,20 @@ export default () => (
             have to do is BE AWESOME. Leave the rest to us.
           </p>
           <p className="mt-8 md:mt-12">
-            <Button
-              size="lg"
-              onClick={e => {
-                e.preventDefault();
-                trackCustomEvent({
-                  category: 'Signup initiate',
-                  action: 'Click',
-                  label: 'I am interested button'
-                });
-              }}
-            >
-              I'm Interested
-            </Button>
+            <Link to="/register/">
+              <Button
+                size="lg"
+                onClick={e => {
+                  trackCustomEvent({
+                    category: 'Signup initiate',
+                    action: 'Click',
+                    label: 'I am interested button'
+                  });
+                }}
+              >
+                I'm Interested
+              </Button>
+            </Link>
           </p>
           <p className="mt-4 text-gray-600">Sign up for early access!</p>
         </div>
@@ -149,19 +151,20 @@ export default () => (
         We are currently looking for super awesome influencers to kickstart Fyli in India.
       </p>
       <p className="mt-8">
-        <Button
-          size="xl"
-          onClick={e => {
-            e.preventDefault();
-            trackCustomEvent({
-              category: 'Signup initiate',
-              action: 'Click',
-              label: 'Footer - Get started button'
-            });
-          }}
-        >
-          Get Started Now
-        </Button>
+        <Link to="/register/">
+          <Button
+            size="xl"
+            onClick={e => {
+              trackCustomEvent({
+                category: 'Signup initiate',
+                action: 'Click',
+                label: 'Footer - Get started button'
+              });
+            }}
+          >
+            Get Started Now
+          </Button>
+        </Link>
       </p>
     </section>
   </Layout>

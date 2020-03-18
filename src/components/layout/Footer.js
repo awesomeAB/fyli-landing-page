@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const Footer = () => (
-  <footer className="bg-gray-100 pt-16 px-4 sm:mt-48 pb-8 shadow-xs text-gray-600 items-center">
+  <footer className="bg-gray-100 pt-16 px-4 sm:mt-48 pb-8 shadow-xs text-gray-600 items-center bottom-0">
     <div className="flex flex-col sm:flex-row">
       <div className="text-lg flex-1 px-3 leading-loose sm:pl-24 lg:pl-40 xl:pl-56">
         <h2 className="text-xl font-semibold">Contact Us</h2>
@@ -123,7 +123,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <p className="text-gray-600 text-center mt-8">© 2020 Fyli. All Rights Reserved.</p>
+    <p className="text-gray-600 text-center mt-8">© Fyli 2020. All Rights Reserved.</p>
   </footer>
 );
 

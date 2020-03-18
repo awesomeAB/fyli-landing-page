@@ -4,7 +4,7 @@ import SEO from '../components/SEO';
 
 const Privacy = () => (
   <Layout>
-    <SEO pathname="/privacy" />
+    <SEO pathname="/privacy/" />
     <h1 className="text-4xl text-gray-600 text-center py-12">Fyli Privacy Policy</h1>
   </Layout>
 );

@@ -63,19 +63,20 @@ const Header = () => {
         </AnchorLink>
       </div>
       <div className="hidden mr-6 lg:block">
-        <Button
-          className="text-sm"
-          onClick={e => {
-            e.preventDefault();
-            trackCustomEvent({
-              category: 'Signup initiate',
-              action: 'Click',
-              label: 'Header - get started button'
-            });
-          }}
-        >
-          Get Started
-        </Button>
+        <Link to="/register/">
+          <Button
+            className="text-sm"
+            onClick={e => {
+              trackCustomEvent({
+                category: 'Signup initiate',
+                action: 'Click',
+                label: 'Header - get started button'
+              });
+            }}
+          >
+            Get Started
+          </Button>
+        </Link>
       </div>
     </header>
   );
