@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="flex flex-col sm:flex-row">
       <div className="text-lg flex-1 px-3 leading-loose sm:pl-24 lg:pl-40 xl:pl-56">
         <h2 className="text-xl font-semibold">Contact Us</h2>
-        <p className="mt-4">Innov8 Koramangala, Bangalore 560095.</p>
+        <p className="mt-4">Fyli, Innov8 Koramangala, Bangalore, 560095.</p>
         <a href="tel:9353306268">
           <p>Call us: +91 935-330-6268</p>
         </a>
@@ -21,7 +21,7 @@ const Footer = () => (
             <Link to="/terms/">Terms &amp; Conditions</Link>
           </li>
           <li>
-            <Link to="/shipping/">Shipping &amp; Refunds</Link>
+            <Link to="/shipping/">Shipping &amp; Returns</Link>
           </li>
           <li>
             <Link to="/privacy/">Privacy Policy</Link>
