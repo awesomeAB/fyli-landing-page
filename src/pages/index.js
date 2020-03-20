@@ -92,8 +92,8 @@ export default () => (
               <PayIcon />
               <p className="font-semibold text-xl mt-6">Monthly Payouts</p>
               <p className="mt-4">
-                You can track all orders on the influencer dashboard along with granular revenue
-                details. Your profits will be paid out on a monthly basis.
+                You can track all orders on the Fyli dashboard along with granular revenue data.
+                Your profits will be paid out on a monthly basis.
               </p>
             </Card>
           </div>
@@ -120,8 +120,8 @@ export default () => (
           <div className="lg:pl-32 xl:pl-48">
             <h3 className="text-2xl font-semibold leading-tight">Revenue analytics</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Upon onboarding you will be given access to the influencer dashboard, which will bring
-              all the store data in one place for you to analyze and optimize.
+              Upon onboarding you will be given access to the Fyli dashboard, which will bring all
+              the store data in one place for you to analyze and optimize.
             </p>
           </div>
         }

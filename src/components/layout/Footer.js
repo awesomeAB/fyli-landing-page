@@ -6,13 +6,13 @@ const Footer = () => (
     <div className="flex flex-col sm:flex-row">
       <div className="text-lg flex-1 px-3 leading-loose sm:pl-24 lg:pl-40 xl:pl-56">
         <h2 className="text-xl font-semibold">Contact Us</h2>
-        <p className="mt-4">Fyli, Innov8 Koramangala, Bangalore, 560095.</p>
-        <a href="tel:9353306268">
-          <p>Call us: +91 935-330-6268</p>
-        </a>
-        <a href="mailto:hello@fyli.me">
-          <p>Write to us: hello@fyli.me</p>
-        </a>
+        <p className="mt-4">Fyli, Yelahanka, Bangalore, 560064.</p>
+        <p>
+          Call us:<a href="tel:9353306268"> +91 935-330-6268 </a>
+        </p>
+        <p>
+          Write to us: <a href="mailto:hello@fyli.me"> hello@fyli.me</a>
+        </p>
       </div>
       <div className="flex-1 text-lg px-3 my-6 sm:my-0">
         <h2 className="text-xl font-semibold">Important Links</h2>
