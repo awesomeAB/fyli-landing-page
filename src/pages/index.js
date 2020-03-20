@@ -21,14 +21,17 @@ export default () => (
     <SEO pathname="" />
     <section id="home" className="sm:pt-20 md:pt-40 mt-20 mb-20">
       <div className="container mx-auto px-8 lg:flex">
-        <div className="text-center lg:pr-6 lg:text-left lg:w-1/2">
-          <h1 className="text-3xl pb-4 lg:pt-8 lg:text-5xl xl:text-6xl font-bold leading-none">
+        <div className="text-center md:px-6 lg:text-left lg:w-1/2">
+          <h1 className="text-3xl pb-4 lg:text-5xl xl:text-6xl font-bold leading-none">
             What's your story?
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
             Fyli is a free end-to-end platform for influencers, artists and content creators for
             selling their products and merch online. All you have to do is BE AWESOME. Leave the
             rest to us.
+          </p>
+          <p className="text-xl lg:text-2xl mt-4 text-gray-600 italic">
+            "Find your tribe, tell your story."
           </p>
           <p className="mt-8 md:mt-12">
             <Link to="/register/">
@@ -46,7 +49,7 @@ export default () => (
               </Button>
             </Link>
           </p>
-          <p className="mt-4 text-gray-600">Sign up for early access!</p>
+          <p className="my-4 text-gray-600">Sign up for early access!</p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
