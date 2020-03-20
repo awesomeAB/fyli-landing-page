@@ -21,13 +21,14 @@ export default () => (
     <SEO pathname="" />
     <section id="home" className="sm:pt-20 md:pt-40 mt-20 mb-20">
       <div className="container mx-auto px-8 lg:flex">
-        <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Are you a modern day Influencer?
+        <div className="text-center lg:pr-6 lg:text-left lg:w-1/2">
+          <h1 className="text-3xl pb-4 lg:pt-8 lg:text-5xl xl:text-6xl font-bold leading-none">
+            What's your story?
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Fyli is a free end-to-end platform for selling your products and merch online. All you
-            have to do is BE AWESOME. Leave the rest to us.
+            Fyli is a free end-to-end platform for influencers, artists and content creators for
+            selling their products and merch online. All you have to do is BE AWESOME. Leave the
+            rest to us.
           </p>
           <p className="mt-8 md:mt-12">
             <Link to="/register/">

@@ -11,7 +11,7 @@ const Shipping = () => (
         <p className="text-2xl pb-4 font-semibold lg:text-3xl">Shipping</p>
         <p className="pb-4">
           We have partnered with some of the best shipping providers like FedEx, DHL, Bluedart,
-          Delhivery, etc. to get your orders delivered in the fastest possible way to the customers.
+          Delhivery, etc. to get the orders delivered in the fastest possible way to the customers.
           It takes 48-72 hours to process and dispatch the orders depending upon the product and
           printing requirements.
         </p>
@@ -27,7 +27,7 @@ const Shipping = () => (
         <p className="text-2xl pb-4 font-semibold lg:text-3xl">Returns &amp; Exchanges</p>
         <p className="pb-4">
           Issues related to misprinting, damaged or defective items must be communicated to Fyli
-          within 3 days upon the delivery of the product. We will provide an exhchange or refund for
+          within 3 days upon the delivery of the product. We will provide an exchange or refund for
           such quality related issues subject to verification.
         </p>
         <p className="pb-6">
