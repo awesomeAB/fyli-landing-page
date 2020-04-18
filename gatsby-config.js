@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: 'Fyli - Find your tribe, tell your story.',
-    description: `Fyli is a free end-to-end platform for selling your products and merch online. All you
-            have to do is BE AWESOME. Leave the rest to us.`,
+    description: `Fyli is a free end-to-end platform for influencers, artists and content creators for
+            selling their products and merch online. All you have to do is BE AWESOME. Leave the
+            rest to us.`,
     siteUrl: 'https://www.fyli.me',
     twitter: '@abhishekbisht97',
-    icon: 'assets/logo/icon.png'
+    icon: 'assets/logo/favicon.ico'
   },
   plugins: [
     {

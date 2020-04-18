@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { graphql, useStaticQuery } from 'gatsby';
 
-import logo from '../../assets/logo/icon.png';
+import logo from '../../assets/logo/favicon.ico';
 import image from '../../assets/logo/image.jpg';
 
 const SEO = ({ pathname }) => {

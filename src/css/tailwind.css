@@ -7,6 +7,15 @@ a:hover {
   @apply text-primary;
 }
 
+.logo-container {
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.logo {
+  fill: #9169f7;
+}
+
 @tailwind components;
 
 @tailwind utilities;

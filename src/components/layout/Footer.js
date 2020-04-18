@@ -8,7 +8,7 @@ const Footer = () => (
         <h2 className="text-xl font-semibold">Contact Us</h2>
         <p className="mt-4">Fyli, Yelahanka, Bangalore, 560064.</p>
         <p>
-          Call us:<a href="tel:9353306268"> +91 935-330-6268 </a>
+          Call us:<a href="tel:8277192372"> +91 827-719-2372 </a>
         </p>
         <p>
           Write to us: <a href="mailto:hello@fyli.me"> hello@fyli.me</a>
