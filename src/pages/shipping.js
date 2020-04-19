@@ -40,10 +40,9 @@ const Shipping = () => (
         <p className="text-2xl pb-4 font-semibold lg:text-3xl">Cancellations</p>
         <p className="pb-4">
           In case we receive a cancellation notice and the order has not been processed by us, we
-          shall cancel the order immediately and refund the entire amount back as credits into your
-          Printrove Account. If we have already printed and shipped the product, we will not be able
-          to approve the cancellation request. In such cases, the product follows the normal
-          lifecycle process.
+          shall cancel the order immediately and refund the entire amount back to you. However, if
+          we have already printed and shipped the product, we will not be able to approve the
+          cancellation request. In such cases, the product follows the normal lifecycle process.
         </p>
         <p className="pb-8">
           For cancellations, please mail us as soon as possible at{' '}
