@@ -44,6 +44,12 @@ module.exports = {
           })
       }
     },
-    `gatsby-plugin-robots-txt`
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: { name: `mockups`, path: `./assets/mockups/` }
+    },
+    `gatsby-plugin-robots-txt`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
   ]
 };

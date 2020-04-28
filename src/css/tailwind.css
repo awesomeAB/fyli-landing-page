@@ -12,6 +12,12 @@ a:hover {
   border-radius: 50%;
 }
 
+.header {
+  z-index: 999999;
+}
+.mockup-container {
+  z-index: -99999;
+}
 @tailwind components;
 
 @tailwind utilities;

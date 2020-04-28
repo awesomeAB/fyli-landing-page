@@ -11,7 +11,7 @@ const Header = () => {
   const count = (url.match(/\//g) || []).length;
   const showAnchors = !(count > 3);
   return (
-    <header className="sticky top-0 bg-gray-100 px-6 shadow items-center sm:flex sm:justify-between md:px-12 xl:px-64">
+    <header className="header sticky top-0 bg-gray-100 px-6 shadow items-center sm:flex sm:justify-between md:px-12 xl:px-64">
       <div className="flex sm:flex-row justify-between items-center py-4 sm:px-2">
         <Link to="/">
           <div className="flex items-center text-2xl md:text-3xl font-bold mr-2">
