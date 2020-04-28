@@ -33,7 +33,7 @@ const Footer = () => (
         <div className="flex justify-center sm:justify-between">
           <ul className="mt-4 leading-loose">
             <li className="my-2 inline-block px-2">
-              <a href="#home">
+              <a href="https://www.instagram.com/fyliofficial/" target="blank">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 512 512">
                   <defs>
                     <radialGradient
@@ -85,7 +85,7 @@ const Footer = () => (
             </li>
 
             <li className="my-2 inline-block px-2">
-              <a href="#home">
+              <a href="https://www.facebook.com/fyliofficial/" target="blank">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 120 120">
                   <circle cx="56.098" cy="56.098" r="56.098" fill="#3b5998" />
                   <path
@@ -97,7 +97,7 @@ const Footer = () => (
             </li>
 
             <li className="my-2 inline-block px-2">
-              <a href="#home">
+              <a href="https://api.whatsapp.com/send?phone=918277192372" target="blank">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 128 128">
                   <circle cx="64" cy="64" fill="#25D366" r="64" />
                   <path
@@ -109,7 +109,7 @@ const Footer = () => (
             </li>
 
             <li className="my-2 inline-block px-2">
-              <a href="#home">
+              <a href="https://twitter.com/fyliofficial" target="blank">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 112 112">
                   <circle cx="56.099" cy="56.098" r="56.098" fill="#55acee" />
                   <path
