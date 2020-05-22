@@ -25,7 +25,7 @@ const Stats = () => {
         {data.images.nodes.map(image => (
           <div key={image.id}>
             <Img key={image.id} fixed={image.childImageSharp.fixed} />
-            <p className="text-gray-600 text-xl">{image.base.split('.')[0]}</p>
+            <h3 className="text-gray-600 text-xl">{image.base.replace('_', ' ').split('.')[0]}</h3>
           </div>
         ))}
       </Carousel>
