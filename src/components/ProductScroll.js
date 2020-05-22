@@ -21,7 +21,7 @@ const Stats = () => {
   `);
   return (
     <div className="container mx-auto text-center">
-      <Carousel className="mockup-container" itemsToShow={1} enableAutoPlay autoPlaySpeed={10000}>
+      <Carousel className="mockup-container" itemsToShow={1} enableAutoPlay autoPlaySpeed={8000}>
         {data.images.nodes.map(image => (
           <div key={image.id}>
             <Img key={image.id} fixed={image.childImageSharp.fixed} />
