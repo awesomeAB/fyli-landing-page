@@ -26,9 +26,9 @@ export default () => (
             What's your story?
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Fyli is a free end-to-end platform for influencers, artists and content creators for
-            selling their products and merch online. All you have to do is BE AWESOME. Leave the
-            rest to us.
+            Fyli is an end-to-end platform for influencers, artists and content creators for selling
+            their products and merchandise online. All you gotta do is BE AWESOME. Leave the rest to
+            us.
           </p>
           <p className="text-xl lg:text-2xl mt-4 text-gray-600 italic">
             "Find your tribe, tell your story."
@@ -65,8 +65,8 @@ export default () => (
               <StoreIcon className="inline-block" />
               <p className="font-semibold text-xl mt-6">Custom Store</p>
               <p className="mt-4">
-                We will build a custom storefront tailored to your brand, which will be hosted and
-                managed on our secure and reliable servers.
+                We will build a custom storefront tailored to your brand and hosted on our servers.
+                We also support selling on your Instagram and Facebook pages.
               </p>
             </Card>
           </div>
@@ -75,8 +75,8 @@ export default () => (
               <DesignIcon />
               <p className="font-semibold text-xl mt-6">Bespoke Design</p>
               <p className="mt-4">
-                Our team of in-house designers will make sure that your already awesome designs look
-                even better on the real products.
+                Our team of in-house designers will make sure that your already fabulous designs
+                look even better on the real products. Go wild with your designs!
               </p>
             </Card>
           </div>
@@ -86,7 +86,7 @@ export default () => (
               <p className="font-semibold text-xl mt-6">Order Fulfilment</p>
               <p className="mt-4">
                 We will produce, pack and ship your products directly to your fans. You focus on
-                what you do best, CREATE. Forget about the rest.
+                what you do best, CREATE. Forget about boring grunt work.
               </p>
             </Card>
           </div>
@@ -96,7 +96,7 @@ export default () => (
               <p className="font-semibold text-xl mt-6">Monthly Payouts</p>
               <p className="mt-4">
                 You can track all orders on the Fyli dashboard along with granular revenue data.
-                Your profits will be paid out on a monthly basis.
+                Your profits will be paid out on a monthly or bi-weekly basis.
               </p>
             </Card>
           </div>
@@ -144,7 +144,10 @@ export default () => (
       />
     </section>
     <section id="products" className="py-20 lg:pt-32">
-      <ProductScroll />
+      <div className="container mx-auto text-center">
+        <h2 className="pb-8 text-3xl lg:text-5xl font-semibold lg:pb-12">Products</h2>
+        <ProductScroll />
+      </div>
     </section>
     <section
       id="contact"

@@ -143,7 +143,7 @@ const Register = () => {
               id="username"
               name="entry.683183847"
               type="text"
-              placeholder="1.5M"
+              placeholder="Ex: 1.5M"
             />
           </div>
           <div className="mb-4">
@@ -155,7 +155,7 @@ const Register = () => {
               id="username"
               name="entry.1388416262"
               type="text"
-              placeholder="10%"
+              placeholder="Ex: 10%"
             />
           </div>
           <div className="mb-4">

@@ -14,15 +14,19 @@ const Stats = () => {
               ...GatsbyImageSharpFixed_tracedSVG
             }
           }
+          base
         }
       }
     }
   `);
   return (
     <div className="container mx-auto text-center">
-      <Carousel className="mockup-container" itemsToShow={1} enableAutoPlay autoPlaySpeed={5000}>
+      <Carousel className="mockup-container" itemsToShow={1} enableAutoPlay autoPlaySpeed={10000}>
         {data.images.nodes.map(image => (
-          <Img key={image.id} fixed={image.childImageSharp.fixed} />
+          <div key={image.id}>
+            <Img key={image.id} fixed={image.childImageSharp.fixed} />
+            <p className="text-gray-600 text-xl">{image.base.split('.')[0]}</p>
+          </div>
         ))}
       </Carousel>
     </div>
