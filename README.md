@@ -7,6 +7,7 @@
 <h1 align="center">
   Fyli Landing Page
 </h1>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3f83e00a-316c-4250-a3c6-975d2a055cad/deploy-status)](https://app.netlify.com/sites/fyli/deploys)
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
