@@ -8,7 +8,7 @@ import image from '../../assets/logo/image.jpg';
 const SEO = ({ pathname }) => {
   const {
     site: {
-      siteMetadata: { siteUrl, title, description, twitter }
+      siteMetadata: { siteUrl, title, description, card }
     }
   } = useStaticQuery(graphql`
     query SiteMetadata {
@@ -17,7 +17,7 @@ const SEO = ({ pathname }) => {
           siteUrl
           title
           description
-          twitter
+          card
         }
       }
     }
@@ -43,7 +43,11 @@ const SEO = ({ pathname }) => {
       <meta property="og:image:height" content="1512" />
 
       <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content={twitter} />
+      <meta name="twitter:site" content="@fyliofficial" />
+      <meta name="twitter:creator" content="@abhishekbisht97" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description.split('.')[0]} />
+      <meta name="twitter:image" content={card} />
     </Helmet>
   );
 };
