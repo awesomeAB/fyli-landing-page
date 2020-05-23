@@ -96,7 +96,7 @@ export default () => (
               <p className="font-semibold text-xl mt-6">Monthly Payouts</p>
               <p className="mt-4">
                 You can track all orders on the Fyli dashboard along with granular revenue data.
-                Your profits will be paid out on a monthly or bi-weekly basis.
+                Your profits will be paid out on a monthly basis.
               </p>
             </Card>
           </div>
