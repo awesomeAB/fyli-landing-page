@@ -109,7 +109,7 @@ const Footer = () => (
             </li>
 
             <li className="my-2 inline-block px-2">
-              <a href="https://twitter.com/fyliofficial" target="blank">
+              <a href="https://twitter.com/" target="blank">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" viewBox="0 0 112 112">
                   <circle cx="56.099" cy="56.098" r="56.098" fill="#55acee" />
                   <path
