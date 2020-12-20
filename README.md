@@ -9,6 +9,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3f83e00a-316c-4250-a3c6-975d2a055cad/deploy-status)](https://app.netlify.com/sites/fyli/deploys)
 
+### [Check out Fyli](https://www.fyli.me)
 
 ## 🚀 Quick start
 
